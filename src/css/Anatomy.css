@@ -1,0 +1,422 @@
+
+.bg-2 {
+    background-image: url('../images/daisybee.jpg'); 
+}
+
+
+.describedbee-box {
+    margin: 50px auto;
+    padding: 30px 0px;
+    border-width: 1px 0px 1px 0px;
+    border-style: dashed;
+    border-color: rgb(56, 56, 56);
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    -webkit-box-shadow: 0px 0px 10px gray;
+    -moz-box-shadow: 0px 0px 10px gray;
+
+}
+
+.describedbee {
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+    
+    
+}
+
+.grid1 {
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .describedbee-box {
+        width: 80%;
+        border-width: 1px 1px 1px 1px;
+    }
+
+
+
+}
+
+@media (min-width: 1366px) {
+
+    .describedbee-box {
+        display: none;
+    }
+
+    .grid1 {
+        display: block;
+        width: 1266px;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 221px 415px 415px 215px;
+        grid-template-rows: 120px 200px 200px 200px 130px ;
+        border-width: 1px 1px 1px 1px;
+        border-style: dashed;
+        border-color: rgb(56, 56, 56);
+        background-color: white;
+        box-shadow: 0px 0px 10px gray;
+        -webkit-box-shadow: 0px 0px 10px gray;
+        -moz-box-shadow: 0px 0px 10px gray;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 0.01em;
+        color: rgb(79, 82, 82);
+    }
+
+
+    
+
+    .box-1 {
+        
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+    .box-2 {
+        
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+    .box-3 {
+       
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+    .box-4 {
+        
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+    .box-5 {
+        
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+    .box-6 {
+        
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+    .box-7 {
+        
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    .box-8 {
+        
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    .box-9 {
+        
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+    }
+    .box-10 {
+        
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+    }
+    .box-11 {
+        
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+    }
+    .box-12 {
+        
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+    }
+    .box-13 {
+        
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+    }
+    .box-14 {
+        
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+    }
+    
+
+    .beefordescribe {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        z-index: 50;
+    }
+
+   
+
+    .child {
+        position: relative;
+    }
+
+    .inline {
+        display: inline;
+    }
+
+    .beebutton {
+        background-color: rgb(255, 174, 0) !important;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        box-shadow: 2px 2px 2px gray;
+        -webkit-box-shadow: 2px 2px 2px gray;
+        -moz-box-shadow: 2px 2px 2px gray;
+        background-color: white;
+        margin: 5px;
+        
+    }
+
+    .b-1 {
+        position: absolute;
+        top: 89px;
+        left: 45px;
+
+    }
+
+    .b-2 {
+        position: absolute;
+        top: 88px;
+        left: 330px;
+    }
+
+    .b-3 {
+        position: absolute;
+        top: 85px;
+        left: 70px;
+    }
+
+    .b-4 {
+        position: absolute;
+        top: 85px;
+        left: 190px;
+    }
+
+    .b-5 {
+        position: absolute;
+        top: 150px;
+        left: 180px;
+    }
+
+    .b-6 {
+        position: absolute;
+        top: 110px;
+        left: 180px;
+
+    }
+
+    .b-7 {
+        position: absolute;
+        top: 35px;
+        
+
+    }
+
+    .b-8 {
+        position: absolute;
+        top: 145px;
+        
+    }
+
+    .b-9 {
+        position: absolute;
+        top: 35px;
+        left: 180px;
+    }
+
+    .b-10 {
+        position: absolute;
+        top: 175px;
+        left: 180px;
+
+    }
+
+    .b-11 {
+        position: absolute;
+        top: 85px;
+
+    }
+
+    .b-12 {
+        position: absolute;
+        top: 18px;
+        left: 83px;
+
+    }
+
+    .b-13 {
+        position: absolute;
+        top: 18px;
+        left: 195px;
+    }
+
+    .hair {
+        position: absolute;
+        top: 55px;
+        opacity: 0;
+    }
+
+    .torso {
+        position: absolute;
+        top: 55px;
+        left: 330px;
+        opacity: 0;
+
+    }
+
+    .smeyes {
+        position: absolute;
+        top: 25px;
+        left: 35px;
+        opacity: 0;
+    }
+
+    .smeyes1 {
+        display: block;
+    }
+
+    .head {
+        position: absolute;
+        top: 55px;
+        left: 200px;
+        opacity: 0;
+    }
+
+    .wing {
+        position: absolute;
+        top: 150px;
+        left: 108px;
+        opacity: 0;
+    }
+
+    .antennae {
+        position: absolute;
+        top: 0px;
+        left: 37px;
+        opacity: 0;
+    }
+
+    .abdomen {
+        position: absolute;
+        top: 110px;
+        left: 118px;
+        opacity: 0;
+    }
+
+    .eye {
+        position: absolute;
+        top: 35px;
+        left: 40px;
+        opacity: 0;
+    }
+
+    .mouth {
+        position: absolute;
+        top: 145px;
+        left: 40px;
+        opacity: 0;
+    }
+
+    .third-leg {
+        position: absolute;
+        top: 35px;
+        left: 28px;
+        opacity: 0;
+    }
+
+    .basket {
+        position: absolute;
+        top: 175px;
+        left: 20px;
+        opacity: 0;
+    }
+
+    .first-leg {
+        position: absolute;
+        top: 85px;
+        left: 40px;
+        opacity: 0;
+    }
+
+    .filister {
+        position: absolute;
+        top: 50px;
+        opacity: 0;
+    }
+
+    .claws {
+        position: absolute;
+        top: 50px;
+        left: 80px;
+        opacity: 0;
+    }
+
+    .second-leg {
+        position: absolute;
+        left: 40px;
+        opacity: 0;
+    }
+
+    .visible-description {
+        animation: vsbl 0.5s linear 0s 1 normal forwards;
+    }
+
+    @keyframes vsbl {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+        
+    }
+
+}

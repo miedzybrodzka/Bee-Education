@@ -1,0 +1,172 @@
+.bg-4 {
+    background-image: url('../images/dasiybee2.jpg');
+}
+
+.life-cycle-box {
+    width: 95%;
+    border-width: 0px 1px 1px 1px;
+    padding: 15px;
+    border-style: dashed;
+    border-color: rgb(56, 56, 56);
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    -webkit-box-shadow: 0px 0px 10px gray;
+    -moz-box-shadow: 0px 0px 10px gray;
+    margin: 0px auto 50px auto;
+    
+    
+}
+
+.yellow{
+    width: 95%;
+    color: rgb(252, 182, 77);
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    margin: 50px auto 0px auto !important;
+
+}
+
+.buttons-box {
+    width: 260px;
+    margin: 10px auto;
+}
+
+.life-button {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    border: 1px solid black;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 5px 5px 5px gray;
+    -webkit-box-shadow: 5px 5px 5px gray;
+    -moz-box-shadow: 5px 5px 5px gray;
+}
+
+.button-1 {
+    background-image: url('../images/eggButton.jpg');
+}
+
+.button-2 {
+    background-image: url('../images/wormsButton.jpg');
+}
+
+.button-3 {
+    background-image: url('../images/chrysalisButton.jpg');
+}
+
+.button-4 {
+    background-image: url('../images/imagoButton.jpg');
+}
+
+.seperating-line {
+    width: 20px;
+    border-top: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.life-stadium-text h5 {
+    margin: 15px 0px 15px 0px !important;
+    font-size: 17px;
+
+        
+}
+ .img-for-presentation {
+     margin-top: 20px;
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ .show-description {
+     animation: cycle 0.5s linear 0s 1 normal forwards;
+ }
+
+ @keyframes cycle {
+     0% {
+         display: block;
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 1;
+     }
+     
+ }
+
+@media (min-width: 360px){
+    .life-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    
+}
+
+@media (min-width: 670px) {
+    .life-cycle-box {
+        width: 90%;
+        display: flex;
+        padding-bottom: 20px;
+      
+    }
+    
+    .yellow {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .life-button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .buttons-box {
+        width: 100px;
+    }
+
+    .buttons-wrap {
+        margin: 20px;
+        flex: 1;
+        order: 2;
+    }
+
+    .life-stadium-text {
+        flex: 2;
+        order: 1;
+        padding: 0px 30px;
+    
+    }
+
+    .seperating-line {
+        width: 0px;
+        height: 100px;
+        border-top: 0px;
+        border-left: 1px solid black;
+        margin-left: 50px;
+
+    }
+
+    .img-for-presentation {
+        margin: 30px auto 45px auto;
+        max-width: 640px;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .life-cycle-box {
+        width: 80%;
+        max-width: 1280px;
+    }
+
+    .yellow {
+        width: 80%;
+        max-width: 1280px;
+    }
+    
+}

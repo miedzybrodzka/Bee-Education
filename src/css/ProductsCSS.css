@@ -1,0 +1,26 @@
+.bg-6 {
+    background-image: url('../images/honey.jpg');
+}
+
+.product {
+    width: 100%;
+    margin: 0px auto 20px auto;
+}
+
+@media (min-width: 670px) {
+    .product {
+        width: 300px;
+        margin: 0px 20px 5px 0px;
+        float: left;
+    }
+
+}
+
+
+@media (min-width: 1000px) {
+
+    .product {
+        width: 350px;
+    }
+
+}

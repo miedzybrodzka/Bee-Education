@@ -1,0 +1,141 @@
+.bg-7 {
+    background-image: url('../images/whiteBee.jpg');
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.yellow-quiz{
+    width: 95%;
+    color: rgb(252, 182, 77);
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    margin: 50px auto 0px auto !important;
+
+}
+
+.quiz-box {
+    padding-top: 20px;
+    width: 95%;
+    border-width: 0px 1px 1px 1px;
+    border-style: dashed;
+    border-color: rgb(56, 56, 56);
+    background-color: white;
+    box-shadow: 0px 0px 10px gray;
+    -webkit-box-shadow: 0px 0px 10px gray;
+    -moz-box-shadow: 0px 0px 10px gray;
+    margin: 0px auto 50px auto;
+    
+    
+}
+
+.quiz-image {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.quiz {
+    margin: 20px;
+
+}
+
+.decorative-line2 {
+    width: 100%;
+    border-bottom: 1px solid rgb(216, 213, 213);
+}
+
+.quiz-box label {
+    display: block;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+
+.quiz-box input {
+    margin: 10px ;
+}
+
+.quiz-box p {
+    margin-top: 30px;
+    
+}
+
+.check-button {
+    display: block;
+    width: 220px;
+    margin: 40px auto;
+    background-color: rgb(32, 32, 32);
+    color: rgb(252, 182, 77);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    -webkit-box-shadow: 5px 5px 5px gray;
+    -moz-box-shadow: 5px 5px 5px gray;
+
+}
+
+.hide-result {
+    font-size: 0px;
+}
+
+.result {
+    font-size: 24px;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+
+.invisible-button {
+    visibility: hidden;
+}
+
+@media (min-width: 670px) {
+    .yellow-quiz {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+
+    .quiz-box {
+        width: 90%;
+  
+    }
+
+    .quiz {
+        margin: 20px 100px 10px 100px;
+    }
+
+    .quiz-box label {
+        font-size: 20px;
+    }
+
+    .result{
+        font-size: 36px;
+    }
+
+    
+}
+
+
+@media (min-width: 1000px) {
+    .yellow-quiz {
+        width: 80%;
+        max-width: 1280px;
+    }
+
+    .quiz-box {
+        width: 80%;
+        max-width: 1280px;
+    }
+    
+}
