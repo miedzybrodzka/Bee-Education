@@ -68,7 +68,7 @@ export class YearForBees extends Component {
                         Nie wydalają wówczas, zrobią to dopiero podczas pierwszego, wiosennego oblotu pszczół.</p>
                 </div>
                 <div className='video1'>
-                    <video controls >
+                    <video controls preload = 'auto'>
                         <source src = {video3}  type = 'video/webm' />
                         <source src = {video4}  type = 'video/mp4' />
                     </video>

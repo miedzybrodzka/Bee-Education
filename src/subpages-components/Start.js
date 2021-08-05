@@ -80,7 +80,7 @@ export class Start extends Component {
                     </p>
                     </div>
                     <div className = 'video1'>
-                        <video controls >
+                        <video controls preload = 'auto'>
                             <source src = {video1}  type = 'video/webm' />
                             <source src = {video2}  type = 'video/mp4' />
                         </video>

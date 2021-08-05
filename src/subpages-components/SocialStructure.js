@@ -68,7 +68,7 @@ export class SocialStructure extends Component {
                         </div>
                     </div>
                     <div className = 'video1'>
-                    <video controls >
+                    <video controls preload = 'auto'>
                         <source src = {video5}  type = 'video/webm' />
                         <source src = {video6}  type = 'video/mp4' />
                     </video>
