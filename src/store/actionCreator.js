@@ -1,4 +1,4 @@
-import { UPDATE, CHECK } from './actionType';
+import { UPDATE, CHECK, CLEAR, CLEAN } from './actionType';
 import {ANSWERS, RED} from './dataTypes';
 
 export const saveAnswer = (ev) => {
@@ -15,5 +15,21 @@ export const checkWrongAnswer = (answer) => {
         type: CHECK,
         dataType: RED,
         payload: {answer: answer, color: 'red'}
+    }
+}
+
+export const clearAnswers = (name) => {
+    return {
+        type: CLEAR,
+        dataType: ANSWERS,
+        payload: {name: name, answer:''}
+    }
+}
+
+export const cleanRed = (answer) => {
+    return {
+        type: CLEAN,
+        dataType: RED,
+        payload: {answer: answer, color:''}
     }
 }

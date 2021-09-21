@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {ActionButton} from '../ActionButton';
 import {connect} from 'react-redux';
-import { checkWrongAnswer, saveAnswer } from '../store';
+import { checkWrongAnswer, cleanRed, clearAnswers, saveAnswer } from '../store';
 import hive from '../images/hive.jpg';
 
 const mapStateToProps = (storeData) => ({
@@ -12,7 +12,9 @@ const mapStateToProps = (storeData) => ({
 
 const mapDispatchToProps = {
     saveYourAnswer: saveAnswer,
-    checkWrongAnswer: checkWrongAnswer
+    checkWrongAnswer: checkWrongAnswer,
+    clearAnswers: clearAnswers,
+    cleanRed: cleanRed
 }
 
 const connectfunction = connect(mapStateToProps, mapDispatchToProps);
@@ -32,6 +34,14 @@ export const Quiz  = connectfunction (
             }
             this.resultRef = React.createRef();
         }
+
+
+        componentWillUnmount() {
+    
+            this.props.answers.forEach(answer => this.props.clearAnswers(answer.name));
+            this.props.wrongAnswers.forEach(red => this.props.cleanRed(red.answer));
+            
+         }
 
         checkAnswers = () => {
             console.log('hej');

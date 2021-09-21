@@ -1,5 +1,5 @@
 import {ANSWERS, RED} from './dataTypes';
-import {UPDATE, CHECK} from './actionType';
+import {UPDATE, CHECK, CLEAR, CLEAN} from './actionType';
 import { initialData } from './initialData';
 
 export default function (storeData, action) {
@@ -14,8 +14,17 @@ export default function (storeData, action) {
         return {
             ...storeData,
             [RED]: storeData[RED].map(elem =>elem.answer === action.payload.answer? action.payload : elem)
+        }
 
-
+    case CLEAR:
+        return {
+            ...storeData,
+            [ANSWERS]: storeData[ANSWERS].map(elem => elem.name === action.payload.name? action.payload : elem)
+        }
+    case CLEAN:
+        return {
+            ...storeData,
+            [RED]: storeData[RED].map(elem => elem.answer === action.payload.answer? action.payload : elem)
         }
     
     default:
